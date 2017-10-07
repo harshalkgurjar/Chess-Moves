@@ -7,7 +7,7 @@ def getNextPositionsKnight(position):
   deltas = [(-2, -1), (-2, +1), (+2, -1), (+2, +1), (-1, -2), (-1, +2), (+1, -2), (+1, +2)]
   nextPositionsKnight = []
   for (x, y) in deltas:
-	print('in for knight')
+	#print('in for knight')
 	colValue = ord(column)+x
 	rowValue = row+y
 	if ord('a') <= colValue <= ord('h') and 1 <= rowValue <= 8:
