@@ -15,7 +15,7 @@
 
 ### Steps to run program
 
-- python chess.py -piece <pieceName> -position <position>
+- python chess.py -piece "pieceName" -position "position"
 	- eg: python chess.py -piece queen -position h4
 - Check coverage:
 	- coverage run -a chess.py -piece queen -position h4
